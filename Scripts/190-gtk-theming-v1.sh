@@ -11,6 +11,7 @@ set -e
 
 
 sudo pacman -S adapta-gtk-theme --noconfirm --needed
+yaourt -S breeze-snow-cursoe-theme --noconfirm --needed
 
 
 echo "################################################################"

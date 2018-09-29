@@ -1,0 +1,63 @@
+Install: 
+ufraw-thumbnailer for Nautilus
+filemanager-actions
+font-manager
+google-chrome
+ttf-ms-fonts
+noto-fonts-main
+paper-icon-theme
+neofetch
+screenfetch
+menulibre
+synology-note-station
+archlinux-wallpaper
+inxi
+adapta-gtk-theme
+breeze-snow-cursor-theme
+tree
+
+Hexchat
+TWIT IRC: irc.twit.tv
+
+Extensions to Get
+Media Player indicator
+Places Status indicator
+Multi monitor add-on
+Screenshot tool
+Open Weather
+Applications
+
+
+Keybaord Shorcuts
+Ctrl+L = Show Location in File Manager
+Ctrl+T = New Tab in File Manager
+Alt = Toggle Menu in Visual Studio
+Alt+F2 then r = rest Gnome 
+
+TeamViewer Start
+systemctl enable teamviewerd
+systemctl start teamviewerd
+
+Flatpaks
+Google Play Music
+Visual Studio Code: causes places extension to open visual studio
+add this line: inode/directory=org.gnome.Nautilus.desktop;
+to the file: ~/.config/mimeapps.list
+
+Hexchat
+Remmina
+Spotify
+
+Default File Manager Settings (Filemanager-actions)
+Give in the full path to your command (/usr/bin/terminator) 
+program options (--working-directory=%d/%b) for opening the current path in Terminator.
+
+Cron Install Arch
+sudo pacman -Syu cronie
+systemctl enable --now cronie.service
+eample:
+#(m)  (h)(dom)(moy)(wd)  (cmd)
+  *    *   *    *   *     echo "Hi There!" >> /home/jdaeira/hello.txt
+
+
+
