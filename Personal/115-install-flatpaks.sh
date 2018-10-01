@@ -12,7 +12,7 @@ set -e
 
 sudo pacman -S flatpak --noconfirm --needed
 flatpak install flathub com.googleplaymusicdesktopplayer.GPMDP
-
+flatpak install flathub com.visualstudio.code
 
 
 echo "################################################################"
