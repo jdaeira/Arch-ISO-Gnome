@@ -25,6 +25,9 @@ sudo pacman -S vlc --noconfirm --needed
 yaourt -S shutter --noconfirm --needed
 yaourt -S perl-goo-canvas --noconfirm --needed
 sudo pacman -S hexchat --noconfirm --needed
+sudo pacman -S filemanager-actions --noconfirm --needed
+sudo pacman -S xdotool --noconfirm --needed
+
 
 
 echo "################################################################"
