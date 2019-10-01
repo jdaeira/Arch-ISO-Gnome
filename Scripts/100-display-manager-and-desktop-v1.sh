@@ -18,7 +18,8 @@ sudo pacman -Syyu
 sudo pacman -S gdm --noconfirm --needed
 sudo pacman -S gnome --noconfirm --needed
 
-sudo systemctl enable -f gdm
+systemctl start gdm.service
+systemctl enable gdm.service
 
 echo "Remove anything you do not like from the installed applications"
 
