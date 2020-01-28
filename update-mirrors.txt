@@ -1,0 +1,2 @@
+reflector --verbose --country 'United States' -l 10 -p http --sort rate --save /etc/pacman.d/mirrorlist
+
